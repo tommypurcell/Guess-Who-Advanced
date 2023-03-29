@@ -1,0 +1,64 @@
+html { 
+    font-family: Verdana;
+    font-size: 15px;
+}
+body {
+    background-color: #F0EFEC;
+}
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #80808070;
+}
+div.card:hover {
+    cursor:pointer;
+    padding: 4px;
+    transition: padding 0.5s;
+}
+span {
+    color: black;
+}
+.header {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+  }
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.wrap {
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mystery-card-img {
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+}
+.instructions {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    padding: 20px;
+}
+.mystery-card {
+    text-align: center;
+}
+.eliminated {
+    opacity: 20%;
+}
